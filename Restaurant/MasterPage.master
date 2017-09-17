@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Restaurant.Restarurant" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <meta http-equiv="content-type" content="text/xhtml; charset=utf-8" />
+    <title>:::: 식당 경영 관리 시스템 ::::</title>
+    <link rel="stylesheet" type="text/css" href="theme/common.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" src="script/common.js">
+    </script>
+</head>
+<body>
+
+    <form id="frmMain" runat="server">
+        
+        <div class="bgFrame">
+        <table id="bgFrame" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="bgFrameImg">
+                    <asp:Image ID="bgFrameImg" runat="server" ImageUrl="image/default/bgframeimg.jpg" CssClass="bgFrameImg" />
+                </td>
+                <td class="bgFrameTop" style="background-image:url(image/default/topbg.gif);">
+                    <table cellpadding="0" cellspacing="0" width="550" height="120">
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td style="width:150px" align="left">
+                                <div class="todaySales">오늘 매출</div>
+                                <asp:Label ID="todayData" runat="server" CssClass="todayData"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" style="padding-left:100px">
+                                <asp:LinkButton ID="link" runat="server" PostBackUrl="Food.aspx"></asp:LinkButton>
+                            </td>
+                            <td  align="right">
+                                <div class="yesterSales">어제 매출</div>
+                                <asp:Label ID="yesterData" runat="server" CssClass="yesterData"></asp:Label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="bgFrameMenu" valign="top" style="background-image:url(image/default/menubg.gif);">
+                <br />
+                    <a href="TableManager.aspx" class="menuLink">테이블 관리</a><br />
+                    <a href="Sales.aspx" class="menuLink">매출 현황</a><br />
+                    <a href="Spend.aspx" class="menuLink">지출 현황</a><br />
+                    <a href="Menu.aspx" class="menuLink">상품 메뉴 관리</a><br />
+                    <a href="Food.aspx" class="menuLink">재고품 관리</a><br />
+                </td>
+                <td align="left" valign="top">
+                <div align="center">
+                <div class="bgFrameContent">
+                    <asp:ContentPlaceHolder ID="cphMain" runat="server">
+                    
+                    </asp:ContentPlaceHolder>
+                </div>
+                </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+
+</body>
+</html>

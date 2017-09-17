@@ -1,0 +1,23 @@
+Restaurant
+Restaurant.sln
+기존의 개발 자료.
+실행 및 테스트가 안될 가능성 있음
+
+Restaurant_client
+Restaurant_client.sln
+다른 장소에서 VS2008로 구동 테스트시 사용.
+지금현재 이걸 읽고 계신다면 이 쪽을 사용 해 주시면 되겠습니다.
+
+Restaurant_mysql_dump.sql
+MySQL에 넣을 스키마와 테이블 및 테스트용 입력 데이터 덤프 파일
+
+※MySQL 연결스트링 현재 설정
+id=theson
+pw=1234
+server=210.110.121.54(작업하던 본인 PC의 IP. 사설 네트워크로써 외부 접속 불가)
+database=theson
+characterSet=utf8
+
+※MySQL 혹은 다른 DBMS 설정시 유의사항
+문자셋을 반드시 utf8 혹은 utf-8로 해 주십시요.
+그리고 MySQL에서 사용시 포트 번호를 3306(기본 디폴트) 값으로 놔두시면 되겠습니다.

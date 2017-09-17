@@ -1,0 +1,132 @@
+﻿.accFrame{
+    width:100%;
+    background-color:#e1cbbd;
+}
+.popTitle{
+    height:80px
+}
+#popCate, #popMenu{
+    clear:both;
+    width:180px;
+    height:210px;
+    float:left;
+}
+#popCate{
+    background-color:#d7e2e9;
+}
+.btnCate
+{
+    width:178px;
+    height:23px;
+    border-style:none;
+    border-width:0px;
+    border-color:#ffeeee;
+    text-align:left;
+    font-size:15px;
+    cursor:pointer;
+    background-color:Transparent;
+    padding:0px;
+    
+}
+
+/*
+.cateMember0, .cateMember1{
+    width:180px;
+    height:23px;
+    border-style:none;
+    text-align:left;
+    font-size:15px;
+    cursor:pointer;
+}*/
+    .cateMember1{
+        background-color:#f6f8fa;
+    }
+    .cateMember0{
+        background-color:transparent;
+    }
+    .cateMember0:hover, .cateMember1:hover{
+        text-decoration:underline;
+        background-color:#beb1db;
+        cursor:pointer;
+    }
+#popMenu{
+    background-color:#a0cecb;
+}
+.btnMenu
+{
+    
+}
+.menuMember0, .menuMember1{
+    width:180px;
+    height:23px;
+    border-style:none;
+    border-width:0px;
+    text-align:left;
+    font-size:15px;
+    cursor:pointer;
+}
+    .menuMember1{
+        background-color:#f0f8f8;
+    }
+    .menuMember0{
+        background-color:transparent;
+    }
+    .menuMember0:hover, .menuMember1:hover{
+        text-decoration:underline;
+        background-color:#6eaaa6;
+        cursor:pointer;
+    }
+    /*
+    .menuMember0:link, .menuMember1:link, .menuMember0:visited, .menuMember1:visited{
+        text-decoration:none;
+        color:#333333;
+    }*/
+#popContent{
+    width:320px;
+    background-color:#e1cbbd;
+}
+.subView{
+    width:300px;
+    height:70px;
+    padding:5px;
+    background-color:#e6f9f7;
+}
+.subViewImg{
+    width:60px;
+    height:60px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#000000;
+}
+.btnX, .btnUp, .btnDn{
+    font-weight:bold;
+    border-style:none;
+    border-width:1px;
+    background-color:transparent;
+    width:20px;
+    height:20px;
+}
+.btnX:hover, .btnUp:hover, .btnDn:hover{
+    font-weight:bold;
+    border-style:dashed;
+    border-width:1px;
+    border-color:#333333;
+    color:#888888;
+    cursor:pointer;
+}
+.sumLabel{
+    margin-right: 10px;
+    font-weight:bold;
+}
+#ctl00_cphMain_txtSum{
+    font-size:20px;
+    font-style:italic;
+    font-weight:bold;
+    color:#611049;
+    border-style:none;
+    border-width:0px;
+    background-color:transparent;
+    width:140px;
+    text-align:right;
+    padding-right:10px;
+}

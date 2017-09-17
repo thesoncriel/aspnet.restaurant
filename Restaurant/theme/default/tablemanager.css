@@ -1,0 +1,25 @@
+﻿.status {
+    vertical-align:top;
+    padding:0px;
+}
+
+
+.tableNum {
+    width:20px;
+    height:20px;
+    background-color:#ff8800;
+}
+
+.tmcStyle:hover {
+    background-color:#ffddee;
+    cursor:pointer;
+}
+
+.tmcStyle{
+    width:100%;
+    height:100px;
+    padding:1px;
+    border-style:none;
+    border-width:0px;
+    background-color:transparent;
+}

@@ -1,0 +1,15 @@
+C:\00works\ASP_NET\Restaurant\Restaurant\bin\Restaurant.dll
+C:\00works\ASP_NET\Restaurant\Restaurant\bin\Restaurant.pdb
+C:\00works\ASP_NET\Restaurant\Restaurant\obj\Debug\ResolveAssemblyReference.cache
+C:\00works\ASP_NET\Restaurant\Restaurant\obj\Debug\Restaurant.dll
+C:\00works\ASP_NET\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\inetpub\wwwroot\Restaurant\Restaurant\bin\Restaurant.dll
+C:\inetpub\wwwroot\Restaurant\Restaurant\bin\Restaurant.pdb
+C:\inetpub\wwwroot\Restaurant\Restaurant\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Restaurant\Restaurant\obj\Debug\Restaurant.dll
+C:\inetpub\wwwroot\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\inetpub\wwwroot\Restaurant\Restaurant_client\bin\Restaurant.dll
+C:\inetpub\wwwroot\Restaurant\Restaurant_client\bin\Restaurant.pdb
+C:\inetpub\wwwroot\Restaurant\Restaurant_client\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Restaurant\Restaurant_client\obj\Debug\Restaurant.dll
+C:\inetpub\wwwroot\Restaurant\Restaurant_client\obj\Debug\Restaurant.pdb

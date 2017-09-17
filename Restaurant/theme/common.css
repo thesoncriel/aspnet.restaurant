@@ -1,0 +1,123 @@
+﻿body{
+    margin:0px;
+    padding:0px;
+    background-image:url("@/image/default/bgimg.gif");
+}
+
+#frmLogin
+{   
+    background-image:url("image/default/login.gif");
+    background-repeat:no-repeat;
+    position:absolute;
+    left:30%;
+    top:30%;
+    width:350px;
+    height:280px;
+    padding:40px;
+}
+.pageTop
+{
+    vertical-align:top;
+    text-align:left;
+    padding:30px 0px 0px 30px;
+    font-size:18px;
+    font-family:"times new roman" Fantasy;
+}
+.pageBottom
+{
+    vertical-align:bottom;
+    text-align:right;
+    padding:0px 30px 30px 0px;
+}
+#bgFrame
+{
+    border: 3px solid #a0b6e1;
+    width:100%;
+}
+.bgFrameTop
+{
+    height:130px;
+    background-repeat:no-repeat;
+    background-color:#90a6d1;
+}
+.todayData
+{
+    font-size:16px;
+    color:#444400;
+    font-style:italic;
+}
+.yesterData
+{
+    font-size:14px;
+    color:#333366;
+    font-style:italic;
+}
+.bgFrameImg{
+    width:200px;
+    height:130px;
+}
+
+.bgFrameMenu 
+{
+    line-height:30px;
+    background-repeat:no-repeat;
+}
+.bgFrameContent
+{
+    text-align:center;
+}
+.editArea
+{
+    width:450px;
+    text-align:left;
+}
+    .editLeft
+    {
+        width:120px;
+        float:left;
+        line-height:24px;
+    }
+    .editRight
+    {
+        width:200px;
+        float:left;
+    }
+.editLabel
+{
+    
+}
+.editText
+{
+    width:150px;
+}
+.editBtn
+{
+    width:50px;
+    height:22px;
+}
+.contentTitle
+{
+    font-size:30px;
+    font-weight:bold;
+    color:#558866;
+    font-family:궁서;
+}
+a.menuLink:link, a.menuLink:visited
+{
+    font-family:돋움체;
+    font-size:18px;
+    color:#000000;
+    text-decoration:none;
+    background-color:#e0e0ff;
+}
+a.menuLink:hover
+{
+    font-family:돋움체;
+    font-size:18px;
+    color:#000000;
+    background-color:#eeeeff;
+    border-style:dashed;
+    border-width:4px;
+    border-color:#ddddee;
+}
+/*Account.aspx 디자인*/
