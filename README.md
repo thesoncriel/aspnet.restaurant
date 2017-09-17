@@ -6,7 +6,7 @@
 
 ## 사용기술 및 언어
 * C#.NET 3.5
-* ASP.NET 2.0
+* ASP.NET 2.0 - WebForm
 * MySQL 5.0
 
 ### 단점
